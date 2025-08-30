@@ -8,6 +8,7 @@ jobs:
         steps:
           -name: cheak the code
            run: actions/cheakout@v3
+           
           -name: Say Hello
            run: echo "hello from github action"
          
