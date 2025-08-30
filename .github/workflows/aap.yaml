@@ -1,0 +1,8 @@
+name: hello world
+on: push
+jobs: 
+    frist-job: 
+     runs-on: ubantu-latest
+     steps:
+          - name: print greeting
+            run: echo "hello"
